@@ -6,7 +6,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index(){
-        return 'Selamat Datang';
+    public function world(){
+        return "Hallo dunia menggunakan controller";
+    }
+    public function home(){
+        return '<a href=" https://www.educastudio.com/">Educational Games</a>';
     }
 }
